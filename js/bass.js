@@ -7,7 +7,6 @@ $(document).ready(function(){
   for(var i=1;i<11; i++){
     bass.rect(i*100,0,15,200).attr({fill:"#CCCCCC",'stroke-width':0,'stroke':"#fff"});
   }
-
   var fret_dot = bass.circle(260,100,20);
   fret_dot.attr({fill:"#ffffff",'stroke-width':0,'stroke':"#fff" });
   var fret_dot1 = bass.circle(460,100,20);
